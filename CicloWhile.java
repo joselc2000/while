@@ -3,7 +3,7 @@ public class CicloWhile{
     private static final Scanner scanner = new Scanner(System.in);
     public static int obtenerNumero(String mensaje){
         int numeroTemporal = 0;
-        while(numeroTemporal >= 0){    
+        while(numeroTemporal <= 0){    
             System.out.println(mensaje + ": ");
             numeroTemporal = scanner.nextInt();
         }
